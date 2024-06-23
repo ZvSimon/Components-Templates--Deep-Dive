@@ -13,4 +13,5 @@ export class TrafficComponent {
 
   maxTraffic = Math.max(...dummyTrafficData.map((data) => data.value));
 
+  protected readonly dummyTrafficData = dummyTrafficData;
 }
